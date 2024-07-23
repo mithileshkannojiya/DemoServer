@@ -1,0 +1,2 @@
+com\wiremock\extension\App.class
+com\wiremock\extension\CustomResponseTransformer.class

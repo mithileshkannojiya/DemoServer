@@ -38,7 +38,7 @@ public class CustomResponseTransformer extends ResponseTransformer {
         try (CloseableHttpClient client = HttpClients.createDefault()) {
             WireMockServer wm = new WireMockServer(8080);
             wm.start();
-            HttpGet request_new = new HttpGet("http://localhost:8080/callback_new");
+            HttpGet request_new = new HttpGet("http://localhost:8084/callback_new");
             HttpResponse response_new = client.execute(request_new);
             responseBody = EntityUtils.toString(response_new.getEntity());
             wm.shutdown();
