@@ -1,12 +1,12 @@
 {
     "request": {
       "method": "GET",
-      "url": "/callback_new"
+      "url": "/trigger"
     },
     "response": {
       "status": 200,
       "jsonBody": {
-        "message1": "This is the new response from the seconf API"
+        "message1": "This is the new response from the first API"
       },
       "headers": {
         "Content-Type": "application/json"

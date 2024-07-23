@@ -6,8 +6,8 @@
   "response": {
     "status": 200,
     "jsonBody": {
-      "message": "This is the response from the first API",
-      "message2": "This is the response from the first API"
+      "message": "This is the first object",
+      "message2": "This is the second Object"
     },
     "headers": {
       "Content-Type": "application/json"
