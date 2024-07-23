@@ -42,6 +42,11 @@
       <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.32</version> <!-- Use the latest version available -->
+  </dependency>
   </dependencies>
 
   <build>
@@ -64,6 +69,9 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+          <configuration>
+            <argLine>--add-exports java.xml/com.sun.org.apache.xerces.internal.jaxp=ALL-UNNAMED</argLine>
+        </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
