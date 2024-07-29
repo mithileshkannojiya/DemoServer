@@ -1,93 +1,90 @@
-# Wiremock
+# Service_Virtualization_using_Wiremock
 
+# Introduction
+This project demonstrate the usage of **wiremock** as a stand-alone tool to create virtual services which can we used as an alternative way in testing and development process in case of unavailability of actual microservices or reducing the cost of project where hitting the actual end-points requires some cost.
+
+## Service Virtualization :
+Service virtualization is the process of creating replicas of systems that new applications depend onto   test   how   well   the   application   and   systems   integrate.   It   is   primarily   used   for   integrating applications   that   depend   on   cloud   and   service-oriented   architectures, or   applications   that communicate with third-party data and application program interface (APIs). Examples of these systems include customer relationship management (CRM) services such as Salesforce Service Cloud, enterprise resource planning (ERP) services such as SAP ECC, and internal systems that are still in development. 
+
+## Requirement of service virtualization:
+Service Virtualization eliminates constraints by creating simulations of needed systems and making them available throughout the software development lifecycle. Developers, testers, and performance teams work in parallel. The result is faster delivery, lower costs, and higher quality of innovative new software applications. 
+
+## How does service virtualization work?
+Service virtualization tools monitor traffic between the dependent system and the application. They use log data to build a model that can replicate the dependent system's responses and behavior, using inputs such as SQL statements for databases and Extensible Markup Language (XML) messages for web services. As developers test the new application, the virtualized service produces the same responses that the real one would. 
+
+## Benefits of service virtualization Service 
+virtualization benefits are most acute in rapid deployment and continuous delivery scenarios. It allows teams to rapidly iterate on test results throughout the development process, which can be a boon to DevOps and Agile teams. Service virtualization helps these teams prevent bugs during development, build better systems with fewer defects and share responsibility for testing the quality of the product across departments.
+
+
+# Wiremock :
+WireMock is a tool for mocking HTTP-based APIs that runs in the unit tests, on the desktop, or in the test environment. We can also say it is a simulator for HTTP-based APIs, considered a service virtualization tool or a mock server. It enables us to stay productive when an API we depend on
+```
+▪ Doesn’t exist 
+▪ Isn’t complete 
+▪ Costly to access
+```
+It supports the testing of Edge cases and failure modes. It’s fast so reduces build time significantly. In simple terms, Wiremock is a mocking setup for integration testing. It is mainly used during the development and more significantly during the Integration testing while a system or service talks to one or multiple external or internal dependencies/services.
+
+## Features of WireMock
+1.	Stubbing: It is a technique that allows configuring the HTTP response that is returned by the WireMock server when it receives a specific HTTP request. You can stub HTTP requests with WireMock by using the static givenThat() method of the WireMock class.
+2.	Verification: The WireMock server registers all requests it receives in memory until it is reset. And that makes it possible to verify that a request matching a specific pattern was received, and also to fetch the requests’ details.
+3.	Record-playback of interactions: WireMock can create stub mappings from requests it has received. Combined with its proxying feature this allows you to “record” stub mappings from interaction with existing APIs.
+4.	Injection of faults and delays: One of the main reasons it’s beneficial to use web service fakes when testing is to inject faulty behavior that might be difficult to get the real service to produce on-demand.
+5.	Simulation of Stateful Behavior: Most web services tend to have some state, which changes as you and others interact with them. So, it’s pretty useful to be able to simulate this when you’ve swapped a real service for a test double.
+6.	Can be used as
+◦ JVM library in unit testing.
+◦ Run as a standalone process either on the same host or remote server or on the cloud.
+7.	All of WireMock’s features are easily accessible via its REST (JSON) interface and its’ Java API.
+
+Maven Dependency for WireMock
+For Java 8:
+```
+<dependency>
+    <groupId>com.github.tomakehurst</groupId>
+    <artifactId>wiremock-jre8</artifactId>
+    <version>2.33.2</version>
+    <scope>test</scope>
+</dependency>
+```
+For Java 8 standalone:
+```
+<dependency>
+    <groupId>com.github.tomakehurst</groupId>
+    <artifactId>wiremock-jre8-standalone</artifactId>
+    <version>2.33.2</version>
+    <scope>test</scope>
+</dependency>
+```
 
 
 ## Getting started
+## How to Use Wiremock
+Download wiremock standalone jar from the wirmock official web page.
+https://wiremock.org/
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+To run wiremock standalone jar, execute the following command
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/mithileshkannojiya/wiremock.git
-git branch -M main
-git push -uf origin main
+Java -jar wiremock-jre8-standalone-2.34.0.jar
 ```
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/mithileshkannojiya/wiremock/-/settings/integrations)
+If mappings and files are already created and want to start wiremock with these resources
+```
+•	In windows copy mapping and _files folders in same directory where wiremock jar file is there
+•	In Linux execute the following command to start wiremock with these resources
+Java -jar wiremock-jre8-standalone-2.34.0.jar --load-resources-from-classpath 'resources'
+```
+To check whether mappings are working or not open any browser paste the following url and search it will show all the mappings (stubs) there.
+http://localhost:8080/__admin/mappings
 
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+1. Mithilesh Kannojiya 
+2. Radhika Shrimankar
 
 ## License
 For open source projects, say how it is licensed.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
