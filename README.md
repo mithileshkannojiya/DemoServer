@@ -80,8 +80,7 @@ http://localhost:8080/__admin/mappings
 
 
 ## Authors and acknowledgment
-1. Mithilesh Kannojiya 
-2. Radhika Shrimankar
+1. Mithilesh Kannojiya
 
 ## License
 For open source projects, say how it is licensed.
