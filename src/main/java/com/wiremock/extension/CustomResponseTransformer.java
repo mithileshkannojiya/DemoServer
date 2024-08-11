@@ -2,11 +2,11 @@ package com.wiremock.extension;
 
 import java.io.IOException;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
+import org.apache.hc.client5.http.classic.methods.HttpGet;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
+import org.apache.hc.client5.http.impl.classic.HttpClients;
+import org.apache.hc.core5.http.io.entity.EntityUtils;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -20,6 +20,8 @@ import com.github.tomakehurst.wiremock.http.Response;
 
 
 
+
+@SuppressWarnings("deprecation")
 public class CustomResponseTransformer extends ResponseTransformer {
 
     @Override
@@ -36,10 +38,10 @@ public class CustomResponseTransformer extends ResponseTransformer {
     public Response transform(Request request, Response response, FileSource files, Parameters parameters) {
         String responseBody = "";
         try (CloseableHttpClient client = HttpClients.createDefault()) {
-            WireMockServer wm = new WireMockServer(8085);
+            WireMockServer wm = new WireMockServer(8086);
             wm.start();
-            HttpGet request_new = new HttpGet("http://localhost:8085/callback");
-            HttpResponse response_new = client.execute(request_new);
+            HttpGet request_new = new HttpGet("http://localhost:8086/callback");
+            CloseableHttpResponse response_new = client.execute(request_new);
             responseBody = EntityUtils.toString(response_new.getEntity());
             wm.shutdown();
         } catch (Exception e) {
