@@ -5,12 +5,9 @@
   },
   "response": {
     "status": 200,
-    "jsonBody": {
-      "message": "This is the first object",
-      "message2": "This is the second Object"
-    },
+    "bodyFileName":"step2output.xml",
     "headers": {
-      "Content-Type": "application/json"
+      "Content-Type": "text/xml"
     }
   }
 }

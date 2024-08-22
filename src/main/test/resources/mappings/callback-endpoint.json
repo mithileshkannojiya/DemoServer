@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/callback"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "message": "This is the first object",
+      "message2": "This is the second Object"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

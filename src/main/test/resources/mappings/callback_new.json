@@ -1,0 +1,15 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/trigger"
+    },
+    "response": {
+      "status": 200,
+      "jsonBody": {
+        "message1": "This is the new response from the first API"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
