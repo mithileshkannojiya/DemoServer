@@ -1,0 +1,41 @@
+{
+
+  "d": {
+
+    "__metadata": {
+
+      "id": "https://ampsv023pjt0q.za.if.atcsg.net:8080/sap/opu/odata/sap/ZGW_SD_UK_VALIDATE_USER_SRV/ET_UK_SAP_SAVEUSERSSet(Mandt='',UserName='PARS6537')",
+
+      "uri": "https://ampsv023pjt0q.za.if.atcsg.net:8080/sap/opu/odata/sap/ZGW_SD_UK_VALIDATE_USER_SRV/ET_UK_SAP_SAVEUSERSSet(Mandt='',UserName='PARS6537')",
+
+      "type": "ZGW_SD_UK_VALIDATE_USER_SRV.ET_UK_SAP_SAVEUSERS"
+
+    },
+
+    "Mandt": "{{randomInt lower=100 upper=999}}",
+
+    "UserName": "PARS6537",
+
+    "SoldToParty": "59657",
+
+    "STime": "PT12H34M56S",
+
+    "SDate": "/Date(1721174400000)/",
+
+    "SfCaseId": "123456789",
+
+    "SoType": "",
+
+    "SalesOrg": "",
+
+    "DistChannel": "",
+
+    "Division": "",
+
+    "SalesOffice": "",
+
+    "SalesGroup": ""
+
+  }
+
+}

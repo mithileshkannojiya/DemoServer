@@ -2,6 +2,7 @@ package com.wiremock.extension;
 
 import java.io.IOException;
 
+import com.github.tomakehurst.wiremock.common.ConsoleNotifier;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
@@ -58,8 +59,8 @@ public class CustomResponseTransformer extends ResponseTransformer {
             JSONObject xmltojson = XML.toJSONObject(responseBody);
             JsonNode jsonNode1 = mapper.readTree(String.valueOf(xmltojson));
             JsonNode jsonNode2 = mapper.readTree(transformedBody);
-            merged.setAll((ObjectNode) jsonNode1);
-//            merged.setAll((ObjectNode) jsonNode2);
+//            merged.setAll((ObjectNode) jsonNode1);
+            merged.setAll((ObjectNode) jsonNode2);
 
             String transformedResponse = null;
             if (response_new.getHeader("Content-Type").getValue().contains("xml")){

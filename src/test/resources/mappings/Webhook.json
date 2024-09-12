@@ -1,0 +1,26 @@
+{
+  "request": {
+    "urlPath": "/webhook",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName":"step1output.json",
+    "headers": {
+      "Content-Type": "Application/json"
+    }
+  },
+  "serveEventListeners": [
+    {
+      "name": "webhook",
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:8090/sap/opu/odata/sap/ZGW_SD_UK_VALIDATE_USER_SRV",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": "{\n  \"d\": {\n    \"UserName\": \"PARS6537\",\n    \"SoldToParty\": \"59657\",\n    \"STime\": \"PT12H34M56S\",\n    \"SDate\": \"2024-07-17T00:00:00\",\n    \"SfCaseId\": \"123456789\"\n  }\n}"
+      }
+    }
+  ]
+}

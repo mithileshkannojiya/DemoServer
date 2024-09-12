@@ -7,7 +7,7 @@
     "status": 200,
     "bodyFileName":"step2output.xml",
     "headers": {
-      "Content-Type": "text/xml"
+      "Content-Type": "Application/json"
     }
   }
 }

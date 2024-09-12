@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZORDERS05>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <MANDT>216</MANDT>
+            <DOCNUM>0000000058002107</DOCNUM>
+            <DOCREL>750</DOCREL>
+            <STATUS>30</STATUS>
+            <DIRECT>1</DIRECT>
+            <OUTMOD>2</OUTMOD>
+            <IDOCTYP>ORDERS05</IDOCTYP>
+            <MESTYP>ORDRSP</MESTYP>
+            <SNDPOR>SAPDW2</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>DW2_216</SNDPRN>
+            <RCVPOR>SALESF_UK</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPFC>LS</RCVPFC>
+            <RCVPRN>UKSALESFOR</RCVPRN>
+            <CREDAT>20240122</CREDAT>
+            <CRETIM>145324</CRETIM>
+            <SERIAL>20240122145324</SERIAL>
+        </EDI_DC40>
+        <E1EDK01 SEGMENT="1">
+            <ACTION>000</ACTION>
+            <CURCY>GBP</CURCY>
+            <WKURS>1.00000</WKURS>
+            <ZTERM>5006</ZTERM>
+            <BELNR>5110211171</BELNR>
+            <VSART>FR</VSART>
+            <VSART_BEZ>Franco</VSART_BEZ>
+            <RECIPNT_NO>0000236236</RECIPNT_NO>
+        </E1EDK01>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>006</QUALF>
+            <ORGID>10</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>007</QUALF>
+            <ORGID>50</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>008</QUALF>
+            <ORGID>5010</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>012</QUALF>
+            <ORGID>Z5S</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <ORGID>510</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>016</QUALF>
+            <ORGID>5010</ORGID>
+        </E1EDK14>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>002</IDDAT>
+            <DATUM>20240131</DATUM>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>012</IDDAT>
+            <DATUM>20240122</DATUM>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>022</IDDAT>
+            <DATUM>20240122</DATUM>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>025</IDDAT>
+            <DATUM>20240122</DATUM>
+            <UZEIT>130155</UZEIT>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>023</IDDAT>
+            <DATUM>20240110</DATUM>
+        </E1EDK03>
+        <E1EDK04 SEGMENT="1">
+            <MWSKZ>OA</MWSKZ>
+            <MSATZ>20.000</MSATZ>
+            <MWSBT>10.00</MWSBT>
+        </E1EDK04>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>1F</PARVW>
+            <PARTN>0000058994</PARTN>
+            <NAME1>L1: GB</NAME1>
+            <LAND1>GB</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>AG</PARVW>
+            <PARTN>0000105702</PARTN>
+            <NAME1>MDC Tiles &amp; Bathrooms Ltd</NAME1>
+            <STRAS>5-6 Station Road</STRAS>
+            <STRS2>Industrial Estate</STRS2>
+            <ORT01>MAGHERAFELT</ORT01>
+            <PSTLZ>BT45 5EY</PSTLZ>
+            <LAND1>GB</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <IHREZ>123456789</IHREZ>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>RE</PARVW>
+            <PARTN>0000105702</PARTN>
+            <NAME1>MDC Tiles &amp; Bathrooms Ltd</NAME1>
+            <STRAS>5-6 Station Road</STRAS>
+            <STRS2>Industrial Estate</STRS2>
+            <ORT01>MAGHERAFELT</ORT01>
+            <PSTLZ>BT45 5EY</PSTLZ>
+            <LAND1>GB</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>AGY</REGIO>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>RG</PARVW>
+            <PARTN>0000105702</PARTN>
+            <NAME1>MDC Tiles &amp; Bathrooms Ltd</NAME1>
+            <STRAS>5-6 Station Road</STRAS>
+            <STRS2>Industrial Estate</STRS2>
+            <ORT01>MAGHERAFELT</ORT01>
+            <PSTLZ>BT45 5EY</PSTLZ>
+            <LAND1>GB</LAND1>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>AGY</REGIO>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>WE</PARVW>
+            <PARTN>0000105702</PARTN>
+            <NAME1>MDC Tiles &amp; Bathrooms Ltd</NAME1>
+            <STRAS>5-6 Station Road</STRAS>
+            <STRS2>Industrial Estate</STRS2>
+            <ORT01>MAGHERAFELT</ORT01>
+            <PSTLZ>BT45 5EY</PSTLZ>
+            <LAND1>GB</LAND1>
+            <ABLAD>BLA</ABLAD>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>ZZ</PARVW>
+            <PARTN>PARS6537</PARTN>
+            <BNAME>Prabhakaran Sushmitha</BNAME>
+            <ILNNR>Sushmitha.Prabhakaran@cognizant.com</ILNNR>
+        </E1EDKA1>
+        <E1EDK02 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BELNR>test xml</BELNR>
+            <DATUM>20240122</DATUM>
+        </E1EDK02>
+        <E1EDK02 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BELNR>5110211171</BELNR>
+            <DATUM>20240122</DATUM>
+        </E1EDK02>
+        <E1EDK02 SEGMENT="1">
+            <BELNR>5110211170</BELNR>
+        </E1EDK02>
+        <E1EDK17 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <LKOND>FCA</LKOND>
+            <LKTEXT>Franco transport</LKTEXT>
+        </E1EDK17>
+        <E1EDK17 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <LKTEXT>CAERNARFON</LKTEXT>
+        </E1EDK17>
+        <E1EDK18 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <TAGE>29</TAGE>
+            <PRZNT>0.000</PRZNT>
+            <ZTERM_TXT>Up to 29.02.2024 without deduction</ZTERM_TXT>
+        </E1EDK18>
+        <E1EDP01 SEGMENT="1">
+            <POSEX>000010</POSEX>
+            <ACTION>000</ACTION>
+            <MENGE>5.000</MENGE>
+            <MENEE>PK</MENEE>
+            <PMENE>PK</PMENE>
+            <VPREI>10.00</VPREI>
+            <PEINH>1</PEINH>
+            <NETWR>50.00</NETWR>
+            <NTGEW>16250.000</NTGEW>
+            <GEWEI>KGM</GEWEI>
+            <CURCY>GBP</CURCY>
+            <MATKL>O08009</MATKL>
+            <ANTLF>9</ANTLF>
+            <FIXMG>X</FIXMG>
+            <BRGEW>16375.000</BRGEW>
+            <PSTYV>ZANG</PSTYV>
+            <WERKS>5062</WERKS>
+            <ROUTE>Z00001</ROUTE>
+            <ROUTE_BEZ>AVEC TRANSPORT</ROUTE_BEZ>
+            <VSTEL>5062</VSTEL>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>001</QUALF>
+                <BELNR>test xml</BELNR>
+                <DATUM>20240122</DATUM>
+            </E1EDP02>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>025</IDDAT>
+                <DATUM>20240122</DATUM>
+                <UZEIT>130156</UZEIT>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>023</IDDAT>
+                <DATUM>20240110</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>026</IDDAT>
+                <DATUM>20240131</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>022</IDDAT>
+                <DATUM>20240122</DATUM>
+            </E1EDP03>
+            <E1EDP05 SEGMENT="1">
+                <ALCKZ>+</ALCKZ>
+                <KSCHL>ZP52</KSCHL>
+                <KOTXT>UK_Manual Price</KOTXT>
+                <BETRG>50.00</BETRG>
+                <KRATE>10.00</KRATE>
+                <UPRBS>       1</UPRBS>
+                <MEAUN>PK</MEAUN>
+                <KOEIN>GBP</KOEIN>
+            </E1EDP05>
+            <E1EDP20 SEGMENT="1">
+                <WMENG>5.000</WMENG>
+                <EDATU>20240131</EDATU>
+                <EZEIT>080000</EZEIT>
+            </E1EDP20>
+            <E1EDP19 SEGMENT="1">
+                <QUALF>002</QUALF>
+                <IDTNR>000000000050200005</IDTNR>
+                <KTEXT>10mm weber Base Bd Clip PVC 2.5m 15pk Wh</KTEXT>
+            </E1EDP19>
+            <E1EDP35 SEGMENT="1">
+                <QUALZ>003</QUALZ>
+                <CUSADD>P11</CUSADD>
+            </E1EDP35>
+        </E1EDP01>
+        <E1EDS01 SEGMENT="1">
+            <SUMID>001</SUMID>
+            <SUMME>1</SUMME>
+        </E1EDS01>
+        <E1EDS01 SEGMENT="1">
+            <SUMID>002</SUMID>
+            <SUMME>50.00</SUMME>
+            <SUNIT>GBP</SUNIT>
+        </E1EDS01>
+    </IDOC>
+</ZORDERS05>
