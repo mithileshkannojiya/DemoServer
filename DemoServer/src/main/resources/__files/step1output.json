@@ -14,15 +14,15 @@
 
     "Mandt": "{{randomInt lower=100 upper=999}}",
 
-    "UserName": "PARS6537",
+    "UserName": "{{jsonPath request.body '$.d.UserName'}}",
 
-    "SoldToParty": "59657",
+    "SoldToParty": "{{jsonPath request.body '$.d.SoldToParty'}}",
 
     "STime": "PT12H34M56S",
 
-    "SDate": "/Date(1721174400000)/",
+    "SDate": "{{now formatDate 'yyyy-MM-dd'}}",
 
-    "SfCaseId": "123456789",
+    "SfCaseId": "{{jsonPath request.body '$.d.SfCaseId'}}",
 
     "SoType": "",
 

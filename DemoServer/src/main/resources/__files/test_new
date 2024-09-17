@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZORDERS05>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>MAY_TEST</TABNAM>
+            <MANDT>100</MANDT>
+            <DOCNUM>0000000185395625</DOCNUM>
+            <DOCREL>750</DOCREL>
+            <STATUS>30</STATUS>
+            <DIRECT>1</DIRECT>
+            <OUTMOD>2</OUTMOD>
+            <IDOCTYP>ORDERS05</IDOCTYP>
+            <CIMTYP>ZORDERS05</CIMTYP>
+            <MESTYP>ORDRSP</MESTYP>
+            <STDVRS>J30</STDVRS>
+            <STDMES>J3</STDMES>
+            <SNDPOR>SAPQ11</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>Q11CLNT100</SNDPRN>
+            <RCVPOR>XMLTESTPOR</RCVPOR>
+            <RCVPRT>LS</RCVPRT>
+            <RCVPFC>LS</RCVPFC>
+            <RCVPRN>UKXPO</RCVPRN>
+            <CREDAT>20230511</CREDAT>
+            <CRETIM>150808</CRETIM>
+            <SERIAL>20230511150808</SERIAL>
+        </EDI_DC40>
+        <E1EDK01 SEGMENT="1">
+            <ACTION>004</ACTION>
+            <CURCY>GBP</CURCY>
+            <WKURS>1.00000</WKURS>
+            <ZTERM>XJ22</ZTERM>
+            <BELNR>0016216067</BELNR>
+            <VSART>01</VSART>
+            <VSART_BEZ>Standard Truck</VSART_BEZ>
+            <RECIPNT_NO>0000057313</RECIPNT_NO>
+            <AUTLF>X</AUTLF>
+            <LIFSK> </LIFSK>
+            <LIFSK_BEZ>Extended LT with R</LIFSK_BEZ>
+            <Z1EDK01H_FLD SEGMENT="1">
+                <FLDGRP>VBUK</FLDGRP>
+                <FLDNAME>CMGST</FLDNAME>
+            </Z1EDK01H_FLD>
+            <Z1EDK01H_FLD SEGMENT="1">
+                <FLDGRP>VBKD</FLDGRP>
+                <FLDNAME>SDABW</FLDNAME>
+            </Z1EDK01H_FLD>
+            <Z1EDK01H_FLD SEGMENT="1">
+                <FLDGRP>VBKD</FLDGRP>
+                <FLDNAME>TRMTYP</FLDNAME>
+            </Z1EDK01H_FLD>
+        </E1EDK01>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>006</QUALF>
+            <ORGID>00</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>007</QUALF>
+            <ORGID>50</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>008</QUALF>
+            <ORGID>J30</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>012</QUALF>
+            <ORGID>ZSTD</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>010</QUALF>
+            <ORGID>FAX</ORGID>
+        </E1EDK14>
+        <E1EDK14 SEGMENT="1">
+            <QUALF>016</QUALF>
+            <ORGID>J3EL</ORGID>
+        </E1EDK14>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>002</IDDAT>
+            <DATUM>20230512</DATUM>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>012</IDDAT>
+            <DATUM>20230511</DATUM>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>022</IDDAT>
+            <DATUM>20230511</DATUM>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>025</IDDAT>
+            <DATUM>20230511</DATUM>
+            <UZEIT>150751</UZEIT>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>023</IDDAT>
+            <DATUM>20230517</DATUM>
+        </E1EDK03>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>AG</PARVW>
+            <PARTN>0000068523</PARTN>
+            <NAME1>TRAVIS PERKINS MANCHESTER CENTRAL</NAME1>
+            <STRAS>CASTLE MEADOW ROAD</STRAS>
+            <ORT01>NOTTINGHAM</ORT01>
+            <PSTLZ>NG2 1AG</PSTLZ>
+            <LAND1>GB</LAND1>
+            <TELF1>01159412861</TELF1>
+            <TELBX>00894901</TELBX>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>NT</REGIO>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>ZS</PARVW>
+            <PARTN>J320</PARTN>
+            <NAME1>British Gypsum Limited</NAME1>
+            <NAME2>Barrow</NAME2>
+            <STRAS>Paudy Lane</STRAS>
+            <ORT01>Barrow upon Soar</ORT01>
+            <PSTLZ>LE12 8GB</PSTLZ>
+            <LAND1>GB</LAND1>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>RE</PARVW>
+            <PARTN>0000106141</PARTN>
+            <LIFNR>B139D</LIFNR>
+            <NAME1>NATIONAL MERCHANTS BUYING</NAME1>
+            <NAME2>SOCIETY LTD - CBA HRM</NAME2>
+            <STRAS>10 MERUS COURT</STRAS>
+            <ORT01>LEICESTER</ORT01>
+            <PSTLZ>LE19 1RJ</PSTLZ>
+            <LAND1>GB</LAND1>
+            <TELF1>01162530531</TELF1>
+            <TELBX>IP16406</TELBX>
+            <TELFX>1162516394</TELFX>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>LE</REGIO>
+            <ILNNR>5013546039967</ILNNR>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>RG</PARVW>
+            <PARTN>0000106141</PARTN>
+            <LIFNR>B139D</LIFNR>
+            <NAME1>NATIONAL MERCHANTS BUYING</NAME1>
+            <NAME2>SOCIETY LTD - CBA HRM</NAME2>
+            <STRAS>10 MERUS COURT</STRAS>
+            <ORT01>LEICESTER</ORT01>
+            <PSTLZ>LE19 1RJ</PSTLZ>
+            <LAND1>GB</LAND1>
+            <TELF1>01162530531</TELF1>
+            <TELBX>IP16406</TELBX>
+            <TELFX>1162516394</TELFX>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>LE</REGIO>
+            <ILNNR>5013546039967</ILNNR>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>WE</PARVW>
+            <PARTN>0000057313</PARTN>
+            <NAME1>JOHN A STEPHENS LTD CBA</NAME1>
+            <STRAS>CASTLE MEADOW ROAD</STRAS>
+            <ORT01>NOTTINGHAM</ORT01>
+            <PSTLZ>NG2 1AG</PSTLZ>
+            <LAND1>GB</LAND1>
+            <TELF1>01159412861</TELF1>
+            <TELBX>00894901</TELBX>
+            <SPRAS>E</SPRAS>
+            <HAUSN>000000</HAUSN>
+            <REGIO>NT</REGIO>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>ZZ</PARVW>
+            <TELF1>01159451586</TELF1>
+            <TELFX>0115/945</TELFX>
+            <BNAME>Bill Beaty</BNAME>
+            <ILNNR>William.Beaty@Saint-Gobain.com</ILNNR>
+        </E1EDKA1>
+        <E1EDK02 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <BELNR>wjbtest1723</BELNR>
+            <DATUM>20230511</DATUM>
+        </E1EDK02>
+        <E1EDK02 SEGMENT="1">
+            <QUALF>002</QUALF>
+            <BELNR>0016216167</BELNR>
+            <DATUM>20230511</DATUM>
+        </E1EDK02>
+        <E1EDK17 SEGMENT="1">
+            <QUALF>099</QUALF>
+        </E1EDK17>
+        <E1EDK17 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <LKOND>CFR</LKOND>
+            <LKTEXT>Costs and freight</LKTEXT>
+        </E1EDK17>
+        <E1EDK18 SEGMENT="1">
+            <QUALF>001</QUALF>
+            <TAGE>49</TAGE>
+            <PRZNT>0.000</PRZNT>
+            <ZTERM_TXT>Up to 30.06.2023 without deduction</ZTERM_TXT>
+        </E1EDK18>
+        <E1EDK35 SEGMENT="1">
+            <QUALZ>001</QUALZ>
+            <CUSADD>JZ6</CUSADD>
+        </E1EDK35>
+        <E1EDK35 SEGMENT="1">
+            <QUALZ>003</QUALZ>
+            <CUSADD>010</CUSADD>
+        </E1EDK35>
+        <E1EDK35 SEGMENT="1">
+            <QUALZ>006</QUALZ>
+            <CUSADD>02</CUSADD>
+        </E1EDK35>
+        <E1EDKT1 SEGMENT="1">
+            <TDID>0012</TDID>
+            <TSSPRAS>E</TSSPRAS>
+            <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+            <E1EDKT2 SEGMENT="1">
+                <TDLINE>CORE FLEET DRIVERS ONLY</TDLINE>
+                <TDFORMAT>*</TDFORMAT>
+            </E1EDKT2>
+        </E1EDKT1>
+        <E1EDKT1 SEGMENT="1">
+            <TDID>ZBEM</TDID>
+            <TSSPRAS>E</TSSPRAS>
+            <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+            <E1EDKT2 SEGMENT="1">
+                <TDLINE>PLEASE FORWARD CALLS/CORRESPONDENCE FOR THIS CUSTOMER TO KIERAN</TDLINE>
+                <TDFORMAT>*</TDFORMAT>
+            </E1EDKT2>
+            <E1EDKT2 SEGMENT="1">
+                <TDLINE>CLEAVER  (KIERAN 1:2:1 FOR BRANCH FROM 21.04.2022) 7am-2pm restricted</TDLINE>
+            </E1EDKT2>
+            <E1EDKT2 SEGMENT="1">
+                <TDLINE>deliveries authorised by Gordon Parnell</TDLINE>
+            </E1EDKT2>
+            <E1EDKT2 SEGMENT="1">
+                <TDFORMAT>*</TDFORMAT>
+            </E1EDKT2>
+        </E1EDKT1>
+        <E1EDP01 SEGMENT="1">
+            <POSEX>000010</POSEX>
+            <ACTION>001</ACTION>
+            <MENGE>1.000</MENGE>
+            <MENEE>PF</MENEE>
+            <BMNG2>56.000</BMNG2>
+            <PMENE>BG</PMENE>
+            <PEINH>1</PEINH>
+            <NTGEW>1400.000</NTGEW>
+            <GEWEI>KGM</GEWEI>
+            <CURCY>GBP</CURCY>
+            <MATKL>PFERT</MATKL>
+            <ANTLF>1</ANTLF>
+            <FIXMG>X</FIXMG>
+            <BRGEW>1431.752</BRGEW>
+            <PSTYV>ZSTD</PSTYV>
+            <WERKS>J320</WERKS>
+            <LPRIO>01</LPRIO>
+            <LPRIO_BEZ>Prio 01</LPRIO_BEZ>
+            <ROUTE>UK0000</ROUTE>
+            <ROUTE_BEZ>UK Route 0 days transit</ROUTE_BEZ>
+            <VSTEL>J320</VSTEL>
+            <DELCO>D1</DELCO>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>ZZCHNG</FLDNAME>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>VOLUM</FLDNAME>
+                <FLDVAL>1435.000</FLDVAL>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>VOLEH</FLDNAME>
+                <FLDVAL>LA</FLDVAL>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>ZZUPDKZ</FLDNAME>
+            </Z1EDP01I_FLD>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>001</QUALF>
+                <BELNR>wjbtest1723</BELNR>
+                <DATUM>20230511</DATUM>
+            </E1EDP02>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>025</IDDAT>
+                <DATUM>20230511</DATUM>
+                <UZEIT>150751</UZEIT>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>023</IDDAT>
+                <DATUM>20230517</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>026</IDDAT>
+                <DATUM>20230512</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>022</IDDAT>
+                <DATUM>20230511</DATUM>
+            </E1EDP03>
+            <E1EDP20 SEGMENT="1">
+                <WMENG>1.000</WMENG>
+                <EDATU>20230517</EDATU>
+            </E1EDP20>
+            <E1EDP19 SEGMENT="1">
+                <QUALF>002</QUALF>
+                <IDTNR>000000005200006058</IDTNR>
+                <KTEXT>MULTI-FINISH 25KG</KTEXT>
+            </E1EDP19>
+            <E1EDP19 SEGMENT="1">
+                <QUALF>003</QUALF>
+                <IDTNR>5015341297236</IDTNR>
+            </E1EDP19>
+            <E1EDP17 SEGMENT="1">
+                <QUALF>001</QUALF>
+                <LKOND>CFR</LKOND>
+                <LKTEXT>Costs and freight</LKTEXT>
+            </E1EDP17>
+            <E1EDP35 SEGMENT="1">
+                <QUALZ>004</QUALZ>
+                <CUSADD>001</CUSADD>
+            </E1EDP35>
+            <E1EDP35 SEGMENT="1">
+                <QUALZ>006</QUALZ>
+                <CUSADD>02</CUSADD>
+            </E1EDP35>
+            <E1EDPT1 SEGMENT="1">
+                <TDID>0001</TDID>
+                <TSSPRAS>E</TSSPRAS>
+                <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>THISTLE MULTI-FINISH</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>                            25KG PER BAG</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>                      56 BAGS PER PALLET</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+            </E1EDPT1>
+        </E1EDP01>
+        <E1EDP01 SEGMENT="1">
+            <POSEX>000020</POSEX>
+            <ACTION>001</ACTION>
+            <MENGE>2.000</MENGE>
+            <MENEE>PF</MENEE>
+            <BMNG2>112.000</BMNG2>
+            <PMENE>BG</PMENE>
+            <PEINH>1</PEINH>
+            <NTGEW>2800.000</NTGEW>
+            <GEWEI>KGM</GEWEI>
+            <CURCY>GBP</CURCY>
+            <MATKL>PFERT</MATKL>
+            <ANTLF>1</ANTLF>
+            <FIXMG>X</FIXMG>
+            <BRGEW>2863.504</BRGEW>
+            <PSTYV>ZSTD</PSTYV>
+            <WERKS>J320</WERKS>
+            <LPRIO>01</LPRIO>
+            <LPRIO_BEZ>Prio 01</LPRIO_BEZ>
+            <ROUTE>UK0000</ROUTE>
+            <ROUTE_BEZ>UK Route 0 days transit</ROUTE_BEZ>
+            <VSTEL>J320</VSTEL>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>ZZCHNG</FLDNAME>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>VOLUM</FLDNAME>
+                <FLDVAL>2870.000</FLDVAL>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>VOLEH</FLDNAME>
+                <FLDVAL>LA</FLDVAL>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>ZZUPDKZ</FLDNAME>
+            </Z1EDP01I_FLD>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>001</QUALF>
+                <BELNR>wjbtest1723</BELNR>
+                <DATUM>20230511</DATUM>
+            </E1EDP02>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>025</IDDAT>
+                <DATUM>20230511</DATUM>
+                <UZEIT>150751</UZEIT>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>023</IDDAT>
+                <DATUM>20230517</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>026</IDDAT>
+                <DATUM>20230512</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>022</IDDAT>
+                <DATUM>20230511</DATUM>
+            </E1EDP03>
+            <E1EDP20 SEGMENT="1">
+                <WMENG>2.000</WMENG>
+                <EDATU>20230517</EDATU>
+            </E1EDP20>
+            <E1EDP19 SEGMENT="1">
+                <QUALF>002</QUALF>
+                <IDTNR>000000005200006055</IDTNR>
+                <KTEXT>BONDING COAT 25KG</KTEXT>
+            </E1EDP19>
+            <E1EDP19 SEGMENT="1">
+                <QUALF>003</QUALF>
+                <IDTNR>5015341297489</IDTNR>
+            </E1EDP19>
+            <E1EDP17 SEGMENT="1">
+                <QUALF>001</QUALF>
+                <LKOND>CFR</LKOND>
+                <LKTEXT>Costs and freight</LKTEXT>
+            </E1EDP17>
+            <E1EDP35 SEGMENT="1">
+                <QUALZ>004</QUALZ>
+                <CUSADD>001</CUSADD>
+            </E1EDP35>
+            <E1EDP35 SEGMENT="1">
+                <QUALZ>006</QUALZ>
+                <CUSADD>02</CUSADD>
+            </E1EDP35>
+            <E1EDPT1 SEGMENT="1">
+                <TDID>0001</TDID>
+                <TSSPRAS>E</TSSPRAS>
+                <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>THISTLE BONDING COAT</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>                            25KG PER BAG</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>                      56 BAGS PER PALLET</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+            </E1EDPT1>
+        </E1EDP01>
+        <E1EDP01 SEGMENT="1">
+            <POSEX>000030</POSEX>
+            <ACTION>001</ACTION>
+            <MENGE>3.000</MENGE>
+            <MENEE>PF</MENEE>
+            <BMNG2>168.000</BMNG2>
+            <PMENE>BG</PMENE>
+            <PEINH>1</PEINH>
+            <NTGEW>4200.000</NTGEW>
+            <GEWEI>KGM</GEWEI>
+            <CURCY>GBP</CURCY>
+            <MATKL>PFERT</MATKL>
+            <ANTLF>1</ANTLF>
+            <FIXMG>X</FIXMG>
+            <BRGEW>4295.256</BRGEW>
+            <PSTYV>ZSTD</PSTYV>
+            <WERKS>J320</WERKS>
+            <LPRIO>01</LPRIO>
+            <LPRIO_BEZ>Prio 01</LPRIO_BEZ>
+            <ROUTE>UK0000</ROUTE>
+            <ROUTE_BEZ>UK Route 0 days transit</ROUTE_BEZ>
+            <VSTEL>J320</VSTEL>
+            <DELCO>D1</DELCO>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>ZZCHNG</FLDNAME>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>VOLUM</FLDNAME>
+                <FLDVAL>4305.000</FLDVAL>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>VOLEH</FLDNAME>
+                <FLDVAL>LA</FLDVAL>
+            </Z1EDP01I_FLD>
+            <Z1EDP01I_FLD SEGMENT="1">
+                <FLDGRP>VBAP</FLDGRP>
+                <FLDNAME>ZZUPDKZ</FLDNAME>
+            </Z1EDP01I_FLD>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>001</QUALF>
+                <BELNR>wjbtest1723</BELNR>
+                <DATUM>20230511</DATUM>
+            </E1EDP02>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>025</IDDAT>
+                <DATUM>20230511</DATUM>
+                <UZEIT>150751</UZEIT>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>023</IDDAT>
+                <DATUM>20230517</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>026</IDDAT>
+                <DATUM>20230512</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>022</IDDAT>
+                <DATUM>20230511</DATUM>
+            </E1EDP03>
+            <E1EDP20 SEGMENT="1">
+                <WMENG>3.000</WMENG>
+                <EDATU>20230517</EDATU>
+            </E1EDP20>
+            <E1EDP19 SEGMENT="1">
+                <QUALF>002</QUALF>
+                <IDTNR>000000005200006059</IDTNR>
+                <KTEXT>BOARD FINISH 25KG</KTEXT>
+            </E1EDP19>
+            <E1EDP19 SEGMENT="1">
+                <QUALF>003</QUALF>
+                <IDTNR>5015892880710</IDTNR>
+            </E1EDP19>
+            <E1EDP17 SEGMENT="1">
+                <QUALF>001</QUALF>
+                <LKOND>CFR</LKOND>
+                <LKTEXT>Costs and freight</LKTEXT>
+            </E1EDP17>
+            <E1EDP35 SEGMENT="1">
+                <QUALZ>004</QUALZ>
+                <CUSADD>001</CUSADD>
+            </E1EDP35>
+            <E1EDP35 SEGMENT="1">
+                <QUALZ>006</QUALZ>
+                <CUSADD>02</CUSADD>
+            </E1EDP35>
+            <E1EDPT1 SEGMENT="1">
+                <TDID>0001</TDID>
+                <TSSPRAS>E</TSSPRAS>
+                <TSSPRAS_ISO>EN</TSSPRAS_ISO>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>THISTLE BOARD FINISH</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>                            25KG PER BAG</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+                <E1EDPT2 SEGMENT="1">
+                    <TDLINE>                      56 BAGS PER PALLET</TDLINE>
+                    <TDFORMAT>/</TDFORMAT>
+                </E1EDPT2>
+            </E1EDPT1>
+        </E1EDP01>
+        <E1EDS01 SEGMENT="1">
+            <SUMID>001</SUMID>
+            <SUMME>3</SUMME>
+        </E1EDS01>
+        <E1EDS01 SEGMENT="1">
+            <SUMID>002</SUMID>
+            <SUMME>3060.60</SUMME>
+            <SUNIT>GBP</SUNIT>
+        </E1EDS01>
+    </IDOC>
+</ZORDERS05>
