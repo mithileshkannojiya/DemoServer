@@ -1,0 +1,52 @@
+{
+  "request": {
+    "urlPath": "/new_webhook_xml",
+    "method": "POST",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+      },
+      "bodyPatterns": [
+        {
+          "matchesJsonPath": "$[?(@.d.UserName)]"
+        },
+        {
+          "matchesJsonPath": "$[?(@.d.SoldToParty)]"
+        },
+        {
+          "matchesJsonPath": "$[?(@.d.SfCaseId)]"
+        }
+        
+      ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "Application/json"
+    },
+    "bodyFileName": "step1output.json",
+    "transformers": [
+      "response-template"
+    ]
+  },
+
+
+  "serveEventListeners": [
+    {
+      "name": "webhook",
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:9090/api/xml/uploadfile",
+        "headers": {
+          "Content-Type": "text/xml"
+        },
+      
+        "bodyFileName": "step2output.xml",
+        "transformers": [
+          "response-template"
+        ]
+      }
+    }
+  ]
+}

@@ -4,15 +4,15 @@
 
     "__metadata": {
 
-      "id": "https://ampsv023pjt0q.za.if.atcsg.net:8080/sap/opu/odata/sap/ZGW_SD_UK_VALIDATE_USER_SRV/ET_UK_SAP_SAVEUSERSSet(Mandt='',UserName='PARS6537')",
+      "id": "https://ampsv023pjt0q.za.if.atcsg.net:8080/sap/opu/odata/sap/ZGW_SD_UK_VALIDATE_USER_SRV/ET_UK_SAP_SAVEUSERSSet(Mandt='',UserName='{{jsonPath request.body '$.d.UserName'}}')",
 
-      "uri": "https://ampsv023pjt0q.za.if.atcsg.net:8080/sap/opu/odata/sap/ZGW_SD_UK_VALIDATE_USER_SRV/ET_UK_SAP_SAVEUSERSSet(Mandt='',UserName='PARS6537')",
+      "uri": "https://ampsv023pjt0q.za.if.atcsg.net:8080/sap/opu/odata/sap/ZGW_SD_UK_VALIDATE_USER_SRV/ET_UK_SAP_SAVEUSERSSet(Mandt='',UserName='{{jsonPath request.body '$.d.UserName'}}')",
 
       "type": "ZGW_SD_UK_VALIDATE_USER_SRV.ET_UK_SAP_SAVEUSERS"
 
     },
 
-    "Mandt": "{{randomInt lower=100 upper=999}}",
+    "Mandt": "",
 
     "UserName": "{{jsonPath request.body '$.d.UserName'}}",
 
